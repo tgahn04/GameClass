@@ -6,15 +6,30 @@ void main()
 #pragma region 산술 연산자
 
 	// 1, 변수 = 변수 + 변수
+	int x1 = 5;
+	int x2 = 6;
+	int variable1 = x1 + x2;
+	printf("variable1 = %d\n", variable1);
 
 	// 2. 변수 = 변수 - 리터럴 상수
+	int y1 = 5;
+	int variable2 = y1 - 3;
+	printf("variable2 = %d\n", variable2);
 
 	// 3. 변수 = 변수 * 심볼릭 상수
+	int z1 = 7;
+	const int z = 8;
+	int variable3 = z1 * z;
+	printf("variable3 = %d\n", variable3);
 
 	// 4. 변수 = 리터럴 상수 / 리터럴 상수
+	int variable4 = 6 / 2;
+	printf("variable4 = %d\n", variable4);
 
 	// 5. 변수 = 심볼릭 상수 % 리터럴 상수
-
+	const int a1 = 6;
+	int variable5 = a1 % 3;
+	printf("variable5 = %d\n", variable5);
 
 #pragma endregion
 
