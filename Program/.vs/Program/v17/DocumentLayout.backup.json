@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tgahn\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\GameClass\\Program\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\GameClass\\Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{27CE4C1E-A89D-4F35-99F6-C04B16C8A343}|Program.vcxproj|C:\\Users\\tgahn\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\GameClass\\Program\\Source1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{27CE4C1E-A89D-4F35-99F6-C04B16C8A343}|Program.vcxproj|C:\\Users\\Administrator\\Desktop\\GameClass\\Program\\Source1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{27CE4C1E-A89D-4F35-99F6-C04B16C8A343}|Program.vcxproj|solutionrelative:Source1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -14,17 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Source1.c",
-              "DocumentMoniker": "C:\\Users\\tgahn\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\GameClass\\Program\\Source1.c",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\GameClass\\Program\\Source1.c",
               "RelativeDocumentMoniker": "Source1.c",
-              "ToolTip": "C:\\Users\\tgahn\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\GameClass\\Program\\Source1.c",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\GameClass\\Program\\Source1.c",
               "RelativeToolTip": "Source1.c",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAAAGoAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-07-15T10:25:16.72Z",
               "EditorCaption": ""
