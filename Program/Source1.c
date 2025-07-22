@@ -3,13 +3,13 @@
 void main()
 {
 
-#pragma region Á¶°Ç¹®
-	// ¾î¶² Á¶°ÇÀÌ ÁÖ¾îÁú ¶§ ÇØ´ç Á¶°Ç¿¡ µû¶ó µ¿ÀÛÀ»
-	// ¼öÇàÇÏµµ·Ï ½ÇÇàÇÏ´Â ¸í·É¹®ÀÔ´Ï´Ù.
+#pragma region ì¡°ê±´ë¬¸
+	// ì–´ë–¤ ì¡°ê±´ì´ ì£¼ì–´ì§ˆ ë•Œ í•´ë‹¹ ì¡°ê±´ì— ë”°ë¼ ë™ìž‘ì„
+	// ìˆ˜í–‰í•˜ë„ë¡ ì‹¤í–‰í•˜ëŠ” ëª…ë ¹ë¬¸ìž…ë‹ˆë‹¤.
 
-#pragma region °ü°è ¿¬»êÀÚ
-	// µÎ °³ÀÇÇÇ¿¬»êÀÚÀÇ °ªÀ» ºñ±³ÇÏ¿© ±× °á°ú¸¦ 0 ¶Ç´Â
-	// 1ÀÌ¶ó´Â °ªÀ¸·Î ³ªÅ¸³»´Â ¿¬»êÀÚÀÔ´Ï´Ù.
+#pragma region ê´€ê³„ ì—°ì‚°ìž
+	// ë‘ ê°œì˜í”¼ì—°ì‚°ìžì˜ ê°’ì„ ë¹„êµí•˜ì—¬ ê·¸ ê²°ê³¼ë¥¼ 0 ë˜ëŠ”
+	// 1ì´ë¼ëŠ” ê°’ìœ¼ë¡œ ë‚˜íƒ€ë‚´ëŠ” ì—°ì‚°ìžìž…ë‹ˆë‹¤.
 
 	// int positionX = 10;
 	// int positionY = 20;
@@ -21,13 +21,13 @@ void main()
 	// printf("position = %d\n", positionX != positionY);
 	// printf("position = %d\n", positionX == positionY);
 
-	// °ü°è¿¬»êÀÚ´Â Á¶°ÇÀÌ ¸ÂÀ» ¶§ 1ÀÌ¶ó´Â °ªÀ¸·Î ¹ÝÈ¯µÇ¸ç,
-	// Á¶°ÇÀÌ Æ²¸± ¶§ 0ÀÌ¶ó´Â °ªÀ¸·Î ¹ÝÈ¯µË´Ï´Ù.
+	// ê´€ê³„ì—°ì‚°ìžëŠ” ì¡°ê±´ì´ ë§žì„ ë•Œ 1ì´ë¼ëŠ” ê°’ìœ¼ë¡œ ë°˜í™˜ë˜ë©°,
+	// ì¡°ê±´ì´ í‹€ë¦´ ë•Œ 0ì´ë¼ëŠ” ê°’ìœ¼ë¡œ ë°˜í™˜ë©ë‹ˆë‹¤.
 #pragma endregion
 
-#pragma region if¹®
-	// ¾î¶² Æ¯Á¤ÇÑ Á¶°ÇÀ» ºñ±³ÇÏ¿© Á¶°ÇÀÌ ¸Â´Ù¸é ½ÇÇàµÇ´Â
-	// ¸í·É¹®ÀÔ´Ï´Ù.
+#pragma region ifë¬¸
+	// ì–´ë–¤ íŠ¹ì •í•œ ì¡°ê±´ì„ ë¹„êµí•˜ì—¬ ì¡°ê±´ì´ ë§žë‹¤ë©´ ì‹¤í–‰ë˜ëŠ”
+	// ëª…ë ¹ë¬¸ìž…ë‹ˆë‹¤.
 
 	// int healthe = 0;
 	// 
@@ -36,12 +36,12 @@ void main()
 	// 	printf("Destroy\n");
 	// }
 
-	// if¹®ÀºÁ¶°ÇÀÌ 1ÀÏ ¶§ »øÇàµÇ¸ç, 0ÀÏ ¶§ ½ÇÇàµÇÁö ¾Ê½À´Ï´Ù.
+	// ifë¬¸ì€ì¡°ê±´ì´ 1ì¼ ë•Œ ìƒí–‰ë˜ë©°, 0ì¼ ë•Œ ì‹¤í–‰ë˜ì§€ ì•ŠìŠµë‹ˆë‹¤.
 #pragma endregion
 
-#pragma region else if¹®
-	// if¹®ÀÇÁ¶°ÇÀÌ Æ²¸± ¶§ else if¹®ÀÇÁ¶°ÇÀÌ
-	// ¸Â´Ù¸é ½ÇÇàµÇ´Â ¸í·É¹®ÀÔ´Ï´Ù.
+#pragma region else ifë¬¸
+	// ifë¬¸ì˜ì¡°ê±´ì´ í‹€ë¦´ ë•Œ else ifë¬¸ì˜ì¡°ê±´ì´
+	// ë§žë‹¤ë©´ ì‹¤í–‰ë˜ëŠ” ëª…ë ¹ë¬¸ìž…ë‹ˆë‹¤.
 
 	// int HP = 1;
 	
@@ -56,13 +56,13 @@ void main()
 	// }
 
 
-	// else if¹®Àº¿©·¯ ¹ø Á¤ÀÇÇÒ ¼ö ÀÖÀ¸¸ç, if¹®ÀÌ
-	// Á¸ÀçÇÒ ¶§ »ç¿ëÇÒ ¼ö ÀÖ½À´Ï´Ù.
+	// else ifë¬¸ì€ì—¬ëŸ¬ ë²ˆ ì •ì˜í•  ìˆ˜ ìžˆìœ¼ë©°, ifë¬¸ì´
+	// ì¡´ìž¬í•  ë•Œ ì‚¬ìš©í•  ìˆ˜ ìžˆìŠµë‹ˆë‹¤.
 #pragma endregion
 
-#pragma region else¹®
-	// if¹®°ú else if¹®ÀÇ Á¶°ÇÀÌ ´Ù Æ²¸®¸é
-	// ½ÇÇàµÇ´Â ¸í·É¹®ÀÔ´Ï´Ù.
+#pragma region elseë¬¸
+	// ifë¬¸ê³¼ else ifë¬¸ì˜ ì¡°ê±´ì´ ë‹¤ í‹€ë¦¬ë©´
+	// ì‹¤í–‰ë˜ëŠ” ëª…ë ¹ë¬¸ìž…ë‹ˆë‹¤.
 
 	// int Demage = 0;
 	
@@ -82,39 +82,39 @@ void main()
 	// }
 
 
-	// if¹®¿¡ ¿¬°áµÈ ¸ðµç Á¶°Ç¹®ÀÇ Á¶°ÇÀÌ ¸ÂÀ» ¶§
-	// °¡Àå À§¿¡ ÀÖ´Â Á¶°Ç¹®¸¸ ½ÇÇàµË´Ï´Ù.
+	// ifë¬¸ì— ì—°ê²°ëœ ëª¨ë“  ì¡°ê±´ë¬¸ì˜ ì¡°ê±´ì´ ë§žì„ ë•Œ
+	// ê°€ìž¥ ìœ„ì— ìžˆëŠ” ì¡°ê±´ë¬¸ë§Œ ì‹¤í–‰ë©ë‹ˆë‹¤.
 #pragma endregion
 
-#pragma region switch¹®
-	// ¾î¶² °á°ú¿¡ µû¶ó ±× °á°úºÎÅÍ ½ÇÇàµÇ´Â ¸í·É¹®ÀÔ´Ï´Ù.
+#pragma region switchë¬¸
+	// ì–´ë–¤ ê²°ê³¼ì— ë”°ë¼ ê·¸ ê²°ê³¼ë¶€í„° ì‹¤í–‰ë˜ëŠ” ëª…ë ¹ë¬¸ìž…ë‹ˆë‹¤.
 
 	char grade = 'B';
 
-	// switch¹®Àº ÇØ´ç Á¶°ÇÀÌ ¿Ï·áµÇ¾úÀ» ¶§, break¹®ÀÌ ¾øÀ¸¸é
-	// ³ª¸ÓÁö ¹Ø¿¡ ÀÖ´Â case ¹®±îÁö °è¼Ó ½ÇÇà½ÃÅ°´Ù°¡ Á¾·áÇÕ´Ï´Ù.
+	// switchë¬¸ì€ í•´ë‹¹ ì¡°ê±´ì´ ì™„ë£Œë˜ì—ˆì„ ë•Œ, breakë¬¸ì´ ì—†ìœ¼ë©´
+	// ë‚˜ë¨¸ì§€ ë°‘ì— ìžˆëŠ” case ë¬¸ê¹Œì§€ ê³„ì† ì‹¤í–‰ì‹œí‚¤ë‹¤ê°€ ì¢…ë£Œí•©ë‹ˆë‹¤.
 
 	switch (grade)
 	{
-		case 'A': printf("100Á¡ ~ 90Á¡ÀÔ´Ï´Ù\n");
+		case 'A': printf("100ì  ~ 90ì ìž…ë‹ˆë‹¤\n");
 			break;
-		case 'B': printf("89Á¡ ~ 70Á¡ÀÔ´Ï´Ù\n");
+		case 'B': printf("89ì  ~ 70ì ìž…ë‹ˆë‹¤\n");
 			break;
-		case 'C': printf("69Á¡ ~ 40Á¡ÀÔ´Ï´Ù\n");
+		case 'C': printf("69ì  ~ 40ì ìž…ë‹ˆë‹¤\n");
 			break;
-		case 'D': printf("39Á¡ ~ 10Á¡ÀÔ´Ï´Ù\n");
+		case 'D': printf("39ì  ~ 10ì ìž…ë‹ˆë‹¤\n");
 			break;
-		case 'F': printf("9Á¡ ~ 0Á¡ÀÔ´Ï´Ù\n");
+		case 'F': printf("9ì  ~ 0ì ìž…ë‹ˆë‹¤\n");
 			break;
 
 		default: printf("Exception\n");
 			break;
 	}
 
-	// switch¹®ÀÇ °æ¿ì Á¶°Ç¿¡ ÇØ´çÇÏ´Â °ª¿¡ µû¶ó Á¶°ÇÀÇ
-	// À§Ä¡·Î ÀÌµ¿ÇÕ´Ï´Ù.
+	// switchë¬¸ì˜ ê²½ìš° ì¡°ê±´ì— í•´ë‹¹í•˜ëŠ” ê°’ì— ë”°ë¼ ì¡°ê±´ì˜
+	// ìœ„ì¹˜ë¡œ ì´ë™í•©ë‹ˆë‹¤.
 #pragma endregion
-
+// pull request
 
 #pragma endregion
 
