@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class3rd (Bit)", "..\Class3
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class4th (Overflow & Underflow)", "..\Class4th (Overflow & Underflow)\Class4th (Overflow & Underflow).vcxproj", "{9C72AF35-FFCE-47A1-9E9C-CC567C914FC8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Class5th (Conditional Statement)", "..\Class5th (Conditional Statement)\Class5th (Conditional Statement).vcxproj", "{C7F2FBC3-074E-4026-B4C7-73CDB44DF77F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,18 @@ Global
 		{9C72AF35-FFCE-47A1-9E9C-CC567C914FC8}.Release|x64.Build.0 = Release|x64
 		{9C72AF35-FFCE-47A1-9E9C-CC567C914FC8}.Release|x86.ActiveCfg = Release|Win32
 		{9C72AF35-FFCE-47A1-9E9C-CC567C914FC8}.Release|x86.Build.0 = Release|Win32
+		{C7F2FBC3-074E-4026-B4C7-73CDB44DF77F}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{C7F2FBC3-074E-4026-B4C7-73CDB44DF77F}.Debug|Any CPU.Build.0 = Debug|x64
+		{C7F2FBC3-074E-4026-B4C7-73CDB44DF77F}.Debug|x64.ActiveCfg = Debug|x64
+		{C7F2FBC3-074E-4026-B4C7-73CDB44DF77F}.Debug|x64.Build.0 = Debug|x64
+		{C7F2FBC3-074E-4026-B4C7-73CDB44DF77F}.Debug|x86.ActiveCfg = Debug|Win32
+		{C7F2FBC3-074E-4026-B4C7-73CDB44DF77F}.Debug|x86.Build.0 = Debug|Win32
+		{C7F2FBC3-074E-4026-B4C7-73CDB44DF77F}.Release|Any CPU.ActiveCfg = Release|x64
+		{C7F2FBC3-074E-4026-B4C7-73CDB44DF77F}.Release|Any CPU.Build.0 = Release|x64
+		{C7F2FBC3-074E-4026-B4C7-73CDB44DF77F}.Release|x64.ActiveCfg = Release|x64
+		{C7F2FBC3-074E-4026-B4C7-73CDB44DF77F}.Release|x64.Build.0 = Release|x64
+		{C7F2FBC3-074E-4026-B4C7-73CDB44DF77F}.Release|x86.ActiveCfg = Release|Win32
+		{C7F2FBC3-074E-4026-B4C7-73CDB44DF77F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

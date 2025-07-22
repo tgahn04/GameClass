@@ -1,9 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\GameClass\\Program\\",
+  "WorkspaceRootPath": "C:\\Users\\tgahn\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\GameClass\\Program\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{27CE4C1E-A89D-4F35-99F6-C04B16C8A343}|Program.vcxproj|C:\\Users\\Administrator\\Desktop\\GameClass\\Program\\Source1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C7F2FBC3-074E-4026-B4C7-73CDB44DF77F}|..\\Class5th (Conditional Statement)\\Class5th (Conditional Statement).vcxproj|C:\\Users\\tgahn\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\GameClass\\Class5th (Conditional Statement)\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27CE4C1E-A89D-4F35-99F6-C04B16C8A343}|Program.vcxproj|C:\\Users\\tgahn\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\GameClass\\Program\\Source1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{27CE4C1E-A89D-4F35-99F6-C04B16C8A343}|Program.vcxproj|solutionrelative:Source1.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -14,21 +17,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\tgahn\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\GameClass\\Class5th (Conditional Statement)\\Source.c",
+              "RelativeDocumentMoniker": "..\\Class5th (Conditional Statement)\\Source.c",
+              "ToolTip": "C:\\Users\\tgahn\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\GameClass\\Class5th (Conditional Statement)\\Source.c",
+              "RelativeToolTip": "..\\Class5th (Conditional Statement)\\Source.c",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAIwMoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-07-22T10:42:54.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Source1.c",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\GameClass\\Program\\Source1.c",
+              "DocumentMoniker": "C:\\Users\\tgahn\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\GameClass\\Program\\Source1.c",
               "RelativeDocumentMoniker": "Source1.c",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\GameClass\\Program\\Source1.c",
+              "ToolTip": "C:\\Users\\tgahn\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\GameClass\\Program\\Source1.c",
               "RelativeToolTip": "Source1.c",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAAAGoAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-07-15T10:25:16.72Z",
               "EditorCaption": ""
