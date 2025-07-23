@@ -36,7 +36,7 @@ void main()
 	// 	printf("Destroy\n");
 	// }
 
-	// if문은조건이 1일 때 샐행되며, 0일 때 실행되지 않습니다.
+	// if문은조건이 1일 때 실행되며, 0일 때 실행되지 않습니다.
 #pragma endregion
 
 #pragma region else if문
