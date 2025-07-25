@@ -1,7 +1,4 @@
 #include <stdio.h>
-#include "Utility.h"
-
-#define SIZE 5
 
 void main()
 {
