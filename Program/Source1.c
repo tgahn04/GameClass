@@ -39,9 +39,9 @@ void main()
 #pragma region 포인터
 	// 메모리의 주소 값을 저장할 수 있는 변수입니다.
 
-	int storage = 10;
+	// int storage = 10;
 
-	 int * pointer = &storage;
+	// int * pointer = &storage;
 
 	// 포인터가 가리키는 메모리 공간의 자료형은 알 수 없으므로,
 	// 포인터가 가리키는 메모리의 자료형을 선언해주어야 합니다.
@@ -89,7 +89,57 @@ void main()
 
 #pragma region 숙제
 
-	// 복합 대입 연산자 검색해서 계산기? 만들어보기
+	printf("간단 계산기\n\n");
+
+	double num1, num2, value;
+	char operator;
+
+	printf("첫번째 숫자 = ");
+	scanf_s("%lf", &num1);
+
+	printf("연산자 = ");
+	scanf_s(" %c", &operator, 1);
+
+	printf("두번째 숫자 = ");
+	scanf_s("%lf", &num2);
+
+	value = num1;
+
+	switch (operator)
+	{
+	case '+' : 
+		value += num2;
+			printf("%.2lf + %.2lf = %.2lf\n", num1, num2, value);
+			break;
+	
+	case '-' :
+		value -= num2;
+			printf("%.2lf - %.2lf = %.2lf", num1, num2, value);
+			break;
+	case '*':
+		value *= num2;
+		printf("%.2lf * %.2lf = %.2lf", num1, num2, value);
+		break;
+	
+	case '/':
+		
+		value /= num2;
+		printf("%.2lf / %.2lf = %.2lf", num1, num2, value);
+		break;
+
+	default:
+		printf("오류\n");
+		break;
+	}
+	return 0;
+
+
+
+	
+
+
+
+	
 
 #pragma endregion
 
