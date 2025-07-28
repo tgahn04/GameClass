@@ -89,58 +89,130 @@ void main()
 
 #pragma region 숙제
 
-	printf("간단 계산기\n\n");
-
-	double num1, num2, value;
-	char operator;
-
-	printf("첫번째 숫자 = ");
-	scanf_s("%lf", &num1);
-
-	printf("연산자 = ");
-	scanf_s(" %c", &operator, 1);
-
-	printf("두번째 숫자 = ");
-	scanf_s("%lf", &num2);
-
-	value = num1;
-
-	switch (operator)
-	{
-	case '+' : 
-		value += num2;
-			printf("%.2lf + %.2lf = %.2lf\n", num1, num2, value);
-			break;
-	
-	case '-' :
-		value -= num2;
-			printf("%.2lf - %.2lf = %.2lf", num1, num2, value);
-			break;
-	case '*':
-		value *= num2;
-		printf("%.2lf * %.2lf = %.2lf", num1, num2, value);
-		break;
-	
-	case '/':
-		
-		value /= num2;
-		printf("%.2lf / %.2lf = %.2lf", num1, num2, value);
-		break;
-
-	default:
-		printf("오류\n");
-		break;
-	}
-	return 0;
-
-
-
-	
-
-
-
-	
+	// printf("간단 계산기\n\n");
+	// 
+	// double num1, num2, value;
+	// char operator;
+	// 
+	// printf("첫번째 숫자 = ");
+	// scanf_s("%lf", &num1);
+	// 
+	// printf("연산자 = ");
+	// scanf_s(" %c", &operator, 1);
+	// 
+	// printf("두번째 숫자 = ");
+	// scanf_s("%lf", &num2);
+	// 
+	// value = num1;
+	// 
+	// switch (operator)
+	// {
+	// case '+' : 
+	// 	value += num2;
+	// 		printf("%.2lf + %.2lf = %.2lf\n", num1, num2, value);
+	// 		break;
+	// 
+	// case '-' :
+	// 	value -= num2;
+	// 		printf("%.2lf - %.2lf = %.2lf", num1, num2, value);
+	// 		break;
+	// case '*':
+	// 	value *= num2;
+	// 	printf("%.2lf * %.2lf = %.2lf", num1, num2, value);
+	// 	break;
+	// 
+	// case '/':
+	// 	
+	// 	value /= num2;
+	// 	printf("%.2lf / %.2lf = %.2lf", num1, num2, value);
+	// 	break;
+	// 
+	// default:
+	// 	printf("오류\n");
+	// 	break;
+	// }
+	// return 0;
 
 #pragma endregion
 
+#pragma region 범용 포인터
+	// 자료형이 정해지지 않은 상태로 모든 자료형을
+	// 저장할 수 있는 포인터입니다.
+	
+	// char rank = 'A';
+	// int count = 10;
+	// float angle = 3.14f;
+	
+	// void* reference = NULL; // 포인터 초기화
+	
+	// reference = &rank;
+	
+	// 범용 포인터는 메모리 주소에 접근해서 값을
+	// 변경할 수 없습니다.
+	
+	// *(char *)reference = 'B';
+	
+	// printf("rank 변수의 값 = %c\n", rank);
+	// printf("reference 변수의 값 = %p\n\n", reference);
+	
+	// reference = &count;
+	
+	// *(int*)reference = 50;
+	
+	// printf("count 변수의 값 = %d\n", count);
+	// printf("reference 변수의 값 = %p\n\n", reference);
+	
+	// reference = &angle;
+	
+	// *(float*)reference = 45.5f;
+	// printf("angle 변수의 값 = %f\n", angle);
+	// printf("reference 변수의 값 = %p\n\n", reference);
+
+	// 범용 포인터로 변수의 메모리에 접근하려면 범용 포인터가
+	// 가리키는 변수의 자료형으로 형 변환 해주어야 합니다.
+#pragma endregion
+
+#pragma region 상수 지시 포인터
+// 포인터가 가리키는 주소에 저장되어 있는 값을 변경할 수 없도록
+// 지정되어 있는 포인터 입니다.
+
+// int room1 = 10;
+// int room2 = 20;
+
+// const int * home = NULL;
+
+// home = &room1;
+
+// *home = 99; (x)
+
+// printf("room1의 주소 값 = %p\n", &room1);
+// printf("home의 값 = %p\n\n", home);
+
+// home = &room2;
+
+// printf("room2의 주소 값 = %p\n", &room2);
+// printf("home의 값 = %p\n", home);
+#pragma endregion
+
+#pragma region 포인터 함수
+// 포인터 변수가 가리키고 있는 주소 값을
+// 변경할 수 없는 포인터 입니다.
+
+int item1 = 99;
+int item2 = 555;
+
+int* const box = &item1;
+
+
+
+*box = 100;
+
+printf("item1의 주소값 = %d\n", item1);
+printf("box의 값 = %d\n", box);
+
+*box = item2;
+
+printf("item2의 주소값 = %d\n", item2);
+printf("box의 값 = %d\n", box);
+#pragma endregion
 }
