@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{3f2fba34-3efd-49d2-bf8f-737f40555d1e}</ProjectGuid>
-    <RootNamespace>Class7thTypeConversion</RootNamespace>
+    <ProjectGuid>{9a64c69f-e598-4cf2-abd4-3a027a54a94a}</ProjectGuid>
+    <RootNamespace>Class8thPointer</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Class7th (Type Conversion)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
