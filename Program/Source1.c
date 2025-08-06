@@ -1,27 +1,80 @@
 ﻿#include <stdio.h>
-#include <stdlib.h>
+#include <math.h>
+
+struct Player
+{
+	float x;
+	float y;
+};
+
+struct Enemy
+{
+	float x;
+	float y;
+};
+
+float Distance(struct Player Pdata, struct Enemy Edata)
+{
+	float dx = Pdata.x - Edata.x;
+	float dy = Pdata.y - Edata.y;
+	return sqrt(dx * dx + dy * dy);
+}
+
+struct PascalCase
+{
+	char character;
+	int level;
+	double experience;
+};
 
 void main()
 {
-#pragma region 동적 할당
-	// 프로그램을 실행하는 중에 필요한 만큼 메모리를 할당
-	// 하는 작업입니다.
+#pragma region 구조체
+	// 여러 개의 변수를 하나의 집합으로 구조화한 다음
+	// 하나의 객체를 생성하는 것입니다.
 
-	int* pointer;
-	pointer = (int *)malloc(4);
-	*pointer = 10;
+	// struct PascalCase Data = {'T', 21, 2643.75};
+	
+	// printf("character = %c\n", Data.character);
+	// printf("level = %d\n", Data.level);
+	// printf("experience = %.2f\n\n", Data.experience);
+	
+	// // 구조체의 각 맴버는 구조체 선언에서 나타나는 순서대로 초기화됩니다.
+	// // 이 순서는 초기화 목록의 값들이 왼쪽에서부터 오른쪽으로 대응됩니다.
+	
+	// Data.character = 'J';
+	// Data.level = 18;
+	// Data.experience = 1729.34;
+	
+	// printf("character = %c\n", Data.character);
+	// printf("level = %d\n", Data.level);
+	// printf("experience = %.2f\n", Data.experience);
 
-	printf("동적 할당된 메모리의 값 = %d\n", *pointer);
+	// 구조체를 선언하기 전에 구조체는 메모리 공간이
+	// 생성되지 않으므로, 구조체 내부에 있는 데이터를
+	// 초기화할 수 없습니다.
+#pragma endregion
 
-	free(pointer);
+#pragma region 두 점 사이의 거리
+	//printf("%lf\n", sqrt(25));
+	//printf("%lf\n", pow(5,2));
 
+	struct Player Pdata = { 1, 2 };
+	struct Enemy Edata = { 4, 6 };
 
+	float distance = Distance(Pdata, Edata);
+	
+	if (distance <= 5)
+	{
+		printf("Enemy : Attack = %f\n", distance);
+	}
 
-	// 동적 할당은 실행 시간에 가변적으로 메모리의 크기를
-	// 변경할 수 있으며, 동적으로 메모리의 크기를 할당할 때
-	// byte 단위로 지정합니다.
-	// 동적으로 할당한 메모리는 Heap 영역에 보관되어 있으므로,
-	// 사용이 끝나면 직접 해제해주어야 합니다.
+	else
+	{
+		printf("Enemy : Idle = %f\n", distance);
+	}
+
+	return 0;
 #pragma endregion
 
 return 0;
