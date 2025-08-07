@@ -27,7 +27,27 @@ struct PascalCase
 	double experience;
 };
 
-void main()
+struct Data
+{
+	char grade;
+	int health;
+	double experience;
+};
+
+struct Dummy
+{
+	char Type;
+	double HP;
+	int Number;
+};
+
+struct Node
+{
+	int data;
+	struct Node* next;
+};
+
+int main()
 {
 #pragma region 구조체
 	// 여러 개의 변수를 하나의 집합으로 구조화한 다음
@@ -56,25 +76,58 @@ void main()
 #pragma endregion
 
 #pragma region 두 점 사이의 거리
-	//printf("%lf\n", sqrt(25));
-	//printf("%lf\n", pow(5,2));
 
-	struct Player Pdata = { 1, 2 };
-	struct Enemy Edata = { 4, 6 };
+// 	struct Player Pdata = { 1, 2 };
+// 	struct Enemy Edata = { 6, 8 };
+// 
+// 	float distance = Distance(Pdata, Edata);
+// 	
+// 	if (distance <= 5)
+// 	{
+// 		printf("Enemy : Attack\n", distance);
+// 	}
+// 
+// 	else
+// 	{
+// 		printf("Enemy : Idle\n", distance);
+// 	}
+// 
+// 	return 0;
+#pragma endregion
 
-	float distance = Distance(Pdata, Edata);
+#pragma region 바이트 패딩
+	// 맴버 변수를 메모리에서 CPU로 읽을 때 한 번에
+	// 읽을 수 있도록, 컴파일러가 레지스터의 블록에
+	// 맞추어 바이트를 패딩해주는 최적화 작업입니다.
+
+	// printf("Data의 크기 = %d\n", sizeof(struct Data));
+
+	// 구조체의 크기는 구조체를 구성하는 멤버 중에서 크기가
+	// 가장 큰 자료형의 배수가 되도록 정렬합니다.
 	
-	if (distance <= 5)
+	// printf("Dummy의 크기 = %d\n", sizeof(struct Dummy));
+
+	// 구조체 크기의 경우 멤버 변수의 순서에 따라 메모리의 크기가
+	// 다르게 설정될 수 있습니다.
+#pragma endregion
+
+#pragma region 자기 참조 구조체
+	struct Node Node1 = { 10, NULL };
+	struct Node Node2 = { 20, NULL };
+	struct Node Node3 = { 30, NULL };
+
+	Node1.next = &Node2;
+	Node2.next = &Node3;
+	Node3.next = NULL;
+
+	struct Node* connect = &Node1;
+
+	while (connect != NULL)
 	{
-		printf("Enemy : Attack = %f\n", distance);
+		printf("노드 값 = %d\n", connect->data);
+		connect = connect->next;
 	}
 
-	else
-	{
-		printf("Enemy : Idle = %f\n", distance);
-	}
-
-	return 0;
 #pragma endregion
 
 return 0;
